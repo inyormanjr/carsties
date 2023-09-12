@@ -4,8 +4,8 @@ namespace SearchService.Models
 {
     public class Item : Entity
     {
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } 
+        public DateTime UpdatedAt { get; set; }
         public DateTime AuctionEnd { get; set; }
         public string Seller { get; set; }
         public string Winner { get; set; }
